@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{82DF296B-6EB8-C92F-045A-5DD321D61816}</ProjectGuid>
+	<ProjectGuid>{C280B0E3-325A-8F8F-FF96-F402E2906DF8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,11 +52,13 @@
      <Compile Include="Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\Scripts\gatlingImpactScript.cs" />
      <Compile Include="Assets\Scripts\mainMenu.cs" />
+     <Compile Include="Assets\Scripts\playerHandler.cs" />
      <Compile Include="Assets\Scripts\rocketScript.cs" />
      <Compile Include="Assets\Scripts\setCursor.cs" />
      <Compile Include="Assets\Scripts\shellExplosion.cs" />
      <Compile Include="Assets\Scripts\shellScript.cs" />
      <Compile Include="Assets\Scripts\towerScript.cs" />
+     <Compile Include="Assets\Scripts\turrentPanel.cs" />
      <Compile Include="Assets\Scripts\visualPathCheckpoint.cs" />
      <Compile Include="Assets\Scripts\visualPathSpawner.cs" />
  <Reference Include="UnityEngine.Networking">
