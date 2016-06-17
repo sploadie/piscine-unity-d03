@@ -33,7 +33,7 @@ public class ennemyScript : MonoBehaviour {
 			gameManager.gm.score += score;
 			destruction ();
 		}
-		else if (transform.position == playerCore.transform.position) {
+		else if ((Vector2)transform.position == (Vector2)playerCore.transform.position) {
 			gameManager.gm.damagePlayer(ennemyDamage);
 			destruction();
 		}
